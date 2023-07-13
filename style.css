@@ -15,7 +15,7 @@
 
 .outline {
     width: 450px;
-    height: 250px;
+    height: 275px;
     margin: 0 auto;
     flex-direction: column;
     display: flex;
@@ -23,8 +23,7 @@
 }
 
 .top {
-    width: 450px;
-    height: 80px;
+    flex: 1;
     background-color: #17A2B8;
 }
 
@@ -40,27 +39,27 @@
 }
 
 .bottom {
-    width: 450px;
-    height: 170px;
+    flex: 2;
     background-color: #FFFFFF;
 }
 
 .body-text {
     position: relative;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 h1 {
     font-size: x-large;
-    margin-bottom: 5px;
 }
 
 .location {
     display: flex;
     gap: 10px;
-    margin-bottom: 5px;   
 }
 
 div .location img {
